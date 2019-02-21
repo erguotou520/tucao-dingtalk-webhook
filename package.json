@@ -1,0 +1,16 @@
+{
+  "name": "tucao-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "pkg": "pkg -t linux -o tucao server.js"
+  },
+  "dependencies": {
+    "fastify": "^1.11.0",
+    "got": "^9.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.4"
+  }
+}
